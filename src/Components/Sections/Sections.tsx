@@ -9,11 +9,11 @@ const Sections = () => {
     return (
         <div className={s.sections}>
             <ul className={s.choice}>
-                <NavLink to='/twits' className={({isActive}) => isActive ? activeLink : normalLink}>Твиты</NavLink>
-                <NavLink to='/' className={({isActive}) => isActive ? activeLink : normalLink}>Ответы</NavLink>
-                <NavLink to='/' className={({isActive}) => isActive ? activeLink : normalLink}>Подборки</NavLink>
-                <NavLink to='/' className={({isActive}) => isActive ? activeLink : normalLink}>Медиа</NavLink>
-                <NavLink to='/' className={({isActive}) => isActive ? activeLink : normalLink}>Нравится</NavLink>
+                <NavLink to='/' className={({isActive}) => isActive ? activeLink : normalLink}>Твиты</NavLink>
+                <NavLink to='/answers' className={({isActive}) => isActive ? activeLink : normalLink}>Ответы</NavLink>
+                <NavLink to='/for' className={({isActive}) => isActive ? activeLink : normalLink}>Подборки</NavLink>
+                <NavLink to='/media' className={({isActive}) => isActive ? activeLink : normalLink}>Медиа</NavLink>
+                <NavLink to='/liked' className={({isActive}) => isActive ? activeLink : normalLink}>Нравится</NavLink>
             </ul>
         </div>
     );
