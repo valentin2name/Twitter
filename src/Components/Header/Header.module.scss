@@ -1,0 +1,46 @@
+.header {
+    margin: 0 auto;
+    .phone {
+        width: 100%;
+        // position: relative;
+    }
+    .wrapp {
+        // position: absolute;
+        // top: 310px;
+        padding: 0px 30px;
+        .info {
+            display: flex;
+            justify-content: space-between;
+            align-items: end;
+
+            .ava {
+                width: 120px;
+                border-radius: 35px;
+            }
+        }
+
+        .year {
+            display: flex;
+            align-items: center;
+            column-gap: 5px;
+
+            .picture {
+                width: 20px;
+            }
+        }
+
+        .follow {
+            display: flex;
+            column-gap: 10px;
+
+            span {
+                color: black;
+                font-weight: 700;
+            }
+        }
+    }
+    
+    p {
+        color: #756d6c;
+    }
+}

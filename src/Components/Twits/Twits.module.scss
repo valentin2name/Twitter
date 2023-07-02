@@ -1,0 +1,41 @@
+.twits {
+    padding: 0px 30px;
+    .wrapp {
+        
+        .post {
+            display: flex;
+            column-gap: 20px;
+            padding-top: 15px;
+            border-bottom: 1px solid;
+
+            .picture {
+                width: 15px;
+            }
+        }
+        .ava {
+            width: 50px;
+            border-radius: 100px;
+        }
+    
+        .from {
+            .block {
+                display: flex;
+                align-items: center;
+                column-gap: 5px;
+            }
+
+            .actions {
+                display: flex;
+                column-gap: 50px;
+                padding-bottom: 15px;
+            }
+        }
+    
+        .btns {
+            display: flex;
+            flex-direction: column;
+            row-gap: 25px;
+            padding-left: 75px;
+        }
+    }
+}
