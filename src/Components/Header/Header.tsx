@@ -2,11 +2,12 @@ import s from './Header.module.scss'
 import tHead from './../../assets/Image/HeaderIcons/twitHed.jpg'
 import tProf from './../../assets/Image/HeaderIcons/twitProf.jpg'
 import calen from './../../assets/Image/HeaderIcons/calendar.png'
+import cap from './../../assets/Image/HeaderIcons/Shapka.jpg'
 
 const Header = () => {
     return (
         <div className={s.header}>
-            <img className={s.phone} src={tHead} alt="" />
+            <img className={s.phone} src={cap} alt="" />
             <div className={s.wrapp}>
                 <div className={s.info}>
                     <img className={s.ava} src={tProf} alt="PHOTO" />

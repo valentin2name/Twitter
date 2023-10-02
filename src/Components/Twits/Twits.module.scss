@@ -1,41 +1,55 @@
 .twits {
-    padding: 0px 30px;
-    .wrapp {
-        
-        .post {
-            display: flex;
-            column-gap: 20px;
-            padding-top: 15px;
-            border-bottom: 1px solid;
 
-            .picture {
-                width: 15px;
-            }
-        }
+    .probaone {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0px;
+    }
+    
+
+    .dop {
+        display: flex;
+        align-items: center;
+
         .ava {
-            width: 50px;
-            border-radius: 100px;
+            border-radius: 100%;
+            width: 100px;
+            height:110px;
         }
-    
-        .from {
-            .block {
-                display: flex;
-                align-items: center;
-                column-gap: 5px;
-            }
+    }
 
-            .actions {
-                display: flex;
-                column-gap: 50px;
-                padding-bottom: 15px;
-            }
+    .probatri {
+        display: flex;
+        flex-direction: column;
+        // align-items: center;
+        padding-left: 15px;
+    }
+
+    .probachet {
+        display: flex;
+        align-items: center;
+    }
+
+    .probafive {
+        display: flex;
+        column-gap: 20px;
+        .picture {
+            width: 15px;
         }
-    
-        .btns {
-            display: flex;
-            flex-direction: column;
-            row-gap: 25px;
-            padding-left: 75px;
+    }
+
+    .btns {
+        display: flex;
+        flex-direction: column;
+        row-gap: 50px;
+        .picture {
+            width: 15px;
         }
+    }
+
+    .nothing {
+        text-align: center;
+        margin: 50px 0px;
+        font-size: 24px;
     }
 }

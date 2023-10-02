@@ -2,16 +2,18 @@
     margin: 0 auto;
     .phone {
         width: 100%;
-        // position: relative;
+        border-radius: 10px;
+        max-height: 350px;
     }
+
     .wrapp {
-        // position: absolute;
-        // top: 310px;
         padding: 0px 30px;
         .info {
             display: flex;
             justify-content: space-between;
             align-items: end;
+            position: relative;
+            bottom: 70px;
 
             .ava {
                 width: 120px;

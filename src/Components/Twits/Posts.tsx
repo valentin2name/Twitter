@@ -2,7 +2,7 @@ const Posts = [{
     user: 'Валёк.',
     email: '@enfotorch',
     text: 'как проснуться и знать JS?',
-    data: '20.07.2022'
+    data: '20.04.2023'
 },
 {
     user: 'Валёк.',

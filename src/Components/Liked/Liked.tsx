@@ -18,7 +18,6 @@ const Liked = () => {
 
     return (
         <div>
-            <h1>Запрос Посты</h1>
             {posts.map((post) => {
                 return <LikedCard post={post}/>
             })}
